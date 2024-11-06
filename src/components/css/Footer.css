@@ -1,0 +1,48 @@
+.footer {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ccc;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 20px;
+  }
+  
+  .footer .social-links a {
+    margin: 0 10px;
+    color: #ccc;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 80px; /* Atur ukuran gambar sesuai kebutuhan */
+    height: auto;
+    margin-right: 10px; /* Jarak antara logo dan teks (jika ada) */
+  }

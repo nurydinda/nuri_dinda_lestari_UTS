@@ -1,0 +1,26 @@
+.consultation {
+    text-align: center;
+    padding: 40px;
+    background-color: #e9ecef;
+  }
+  
+  .consultation h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .consultation p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .consultation .contact-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }

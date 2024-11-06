@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="stylesheet" href="/path/to/your/styles.css" /> <!-- Ganti dengan path CSS Anda -->
+    <style>
+        /* CSS di sini */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between; /* Menyebar elemen di header */
+            align-items: center; /* Memusatkan elemen secara vertikal */
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu {
+            display: flex;
+            gap: 15px; /* Jarak antar item menu */
+        }
+
+        .button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .produk-kami {
+            background-color: blue; /* Warna latar belakang */
+            color: white; /* Warna teks */
+            padding: 20px; /* Ruang di dalam elemen */
+            border-radius: 8px; /* Sudut membulat */
+            margin: 20px; /* Jarak antar elemen */
+            width: 80%; /* Atur lebar sesuai kebutuhan */
+        }
+
+        .cards {
+            display: flex; /* Mengatur tampilan cards dalam baris */
+            justify-content: space-around; /* Menyebar ruang antar cards */
+            flex-wrap: wrap; /* Membuat cards responsif */
+            padding: 20px; /* Ruang di dalam cards */
+            width: 80%; /* Atur lebar sesuai kebutuhan */
+        }
+
+        .card {
+            background-color: #ffffff; /* Warna latar belakang card */
+            border-radius: 8px; /* Sudut membulat */
+            border: 1px solid #ced4da; /* Garis batas */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+            padding: 20px; /* Ruang di dalam card */
+            margin: 10px; /* Jarak antar card */
+            flex: 1 1 200px; /* Membuat card responsif */
+            transition: transform 0.3s; /* Transisi saat hover */
+        }
+
+        .konsultasi {
+            background-color: #f0f0f0;
+            padding: 30px;
+            width: 80%; /* Atur lebar sesuai kebutuhan */
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+            width: 100%; /* Menyesuaikan lebar footer */
+            text-align: center; /* Memusatkan teks di footer */
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">Logo</div>
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="button">Button</button>
+        </header>
+
+        <!-- Container untuk konten utama -->
+        <div class="container">
+            <!-- Produk Kami -->
+            <div class="produk-kami">
+                <h2>Produk Kami</h2>
+                <p>Deskripsi tentang produk kami.</p>
+            </div>
+
+            <!-- Cards Section -->
+            <div class="cards">
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+                <div class="card">Card 3</div>
+            </div>
+
+            <!-- Konsultasi Section -->
+            <div class="konsultasi">
+                <h2>Konsultasi Section</h2>
+                <p>Details about consultations go here.</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">Footer Content</div>
+        </footer>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
